@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+select {
+    border: none;
+}
+a {
+    text-decoration: none;
+    color: var(--main-txt-color);
+}
