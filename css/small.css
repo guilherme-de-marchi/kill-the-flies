@@ -1,6 +1,16 @@
 body, select {
     font-size: 1.4em;
 }
+p {
+    font-size: 2.4em;
+}
 #menu {
     width: 90%;
+}
+#life-indicator {
+    width: 60%;
+    float: left;
+}
+.fly {
+    width: 40%;
 }

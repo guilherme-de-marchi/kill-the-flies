@@ -1,6 +1,13 @@
 body, select {
-    font-size: 1.1em;
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+p {
+    font-size: 2.2em;
 }
 #menu {
     width: 50%;
+}
+.fly {
+    width: 15%;
 }

@@ -1,5 +1,5 @@
 :root {
-    --main-txt-color: #000000;
+    --main-txt-color: #ffffff;
 }
 
 /*Animations*/
@@ -29,7 +29,7 @@ body {
 #screen {
     width: 100vw;
     height: 100vh;
-    background: url('../img/bg.jpg') no-repeat;
+    background: url('../img/bg.jpg') #ffffff no-repeat;
     background-size: cover;
     overflow: hidden;
 }
@@ -49,20 +49,11 @@ body {
 #logo-container .logo-img {
     width: 90%;
 }
-#logo-container .fly.top {
-    float: left;
-}
-#logo-container .fly.bottom {
-    float: right;
-}
 #options {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-}
-#options * {
-    text-transform: uppercase;
 }
 #options select {
     width: 70%;
@@ -70,9 +61,23 @@ body {
 #options select:hover {
     cursor: pointer;
 }
+#game {
+    width: 100%;
+    height: 100%;
+}
+#flies-container {
+    width: 100%;
+    height: 70%;
+}
+#output-container {
+    height: 30%;
+    text-align: center;
+}
+#output-container img {
+    height: 30%;
+}
 .fly {
-    width: 20%;
-    margin: 10px;
+    position: absolute;
 }
 .fly:hover {
     cursor: pointer;
@@ -84,6 +89,7 @@ body {
     animation: flies-not-flipped 2s 0s ease infinite;
 }
 .button {
+    display: block;
     margin-top: 20px;
     padding: 2% 5%;
     background-color: #df3c3c;
